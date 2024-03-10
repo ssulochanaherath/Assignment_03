@@ -3,8 +3,307 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <link rel="stylesheet" href="assets/normalize.css">
+
+    <style>
+        body{
+            overflow: hidden;
+        }
+        /*main section eka*/
+        section{
+            width: 100vw;
+            height: 100vh;
+            border: 2px solid black;
+            position: relative;
+        }
+        /*------- 4 main squre-------*/
+        #div1{
+            width: 50%;
+            height: 50%;
+            background-color: red;
+
+            position: absolute;
+            left: 0;
+        }
+        #div2{
+            width: 50%;
+            height: 50%;
+            background-color: green;
+
+            position: absolute;
+            right: 0;
+        }
+        #div3{
+            width: 50%;
+            height: 50%;
+            background-color: orange;
+
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+        #div4{
+            width: 50%;
+            height: 50%;
+            background-color: deeppink;
+
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        /*------------------------------4 circle in main 4 squre--------------------------------*/
+        #div5{
+            width: 25%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 100px;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        #div6{
+            width: 25%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 100px;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        #div7{
+            width: 25%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 100px;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        #div8{
+            width: 25%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 100px;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        /*-------------------------4 circle center squre----------------------------*/
+        #div9{
+            width: 25%;
+            aspect-ratio: 1/1;
+            background-color: red;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        #div10{
+            width: 25%;
+            aspect-ratio: 1/1;
+            background-color: red;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        #div11{
+            width: 25%;
+            aspect-ratio: 1/1;
+            background-color: red;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        #div12{
+            width: 25%;
+            aspect-ratio: 1/1;
+            background-color: red;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        /*--------------------------------center-----------------------------*/
+        #div13{
+            width: 12.5%;
+            aspect-ratio: 1/1;
+            background-color: white;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        #div14{
+            width: 50%;
+            aspect-ratio: 1/1;
+            background-color: red;
+            border-radius: 100px;
+
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        /*-----------------------conner half circle---------------------------*/
+        #div15{
+            width: 12.5%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 0 0 150px 0;
+
+
+            position: absolute;
+            left: 0;
+
+            margin: auto;
+        }
+        #div16{
+            width: 12.5%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 0 0 0 150px;
+
+
+            position: absolute;
+            right: 0;
+
+            margin: auto;
+        }
+        #div17{
+            width: 12.5%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 0 150px 0 0;
+
+
+            position: absolute;
+            left: 0;
+            bottom: 0;
+
+            margin: auto;
+        }
+        #div18{
+            width: 12.5%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 150px 0 0 0;
+
+
+            position: absolute;
+            right: 0;
+            bottom: 0;
+
+            margin: auto;
+        }
+        /*-------------------------------top and bottom-------------------------------*/
+        #div19{
+            width: 12.5%;
+            height: 12.5%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 0 0 100px 100px;
+
+
+            position: absolute;
+            left: 43.75%;
+            top: 0;
+
+            margin: auto;
+        }
+        #div20{
+            width: 12.5%;
+            height: 12.5%;
+            aspect-ratio: 1/1;
+            background-color: white;
+            border-radius: 100px 100px 0 0;
+
+
+            position: absolute;
+            right: 43.75%;
+            bottom: 0;
+
+            margin: auto;
+        }
+
+
+    </style>
 </head>
 <body>
+<section>
+    <div id="div1">
+        <div id="div5">
+            <div id="div9"></div>
+        </div>
+    </div>
+    <div id="div2">
+        <div id="div6">
+            <div id="div10"></div>
+        </div>
+    </div>
+    <div id="div3">
+        <div id="div7">
+            <div id="div11"></div>
+        </div>
+    </div>
+    <div id="div4">
+        <div id="div8">
+            <div id="div12"></div>
+        </div>
+    </div>
+    <!--center-->
+
+    <div id="div13">
+        <div id="div14"></div>
+    </div>
+    <!-------------------->
+
+    <div id="div15"></div>
+    <div id="div16"></div>
+    <div id="div17"></div>
+    <div id="div18"></div>
+    <div id="div19"></div>
+    <div id="div20"></div>
+
+    <!--19/20 top center and bottom center-->
+
+</section>
+
 
 </body>
 </html>
